@@ -1,0 +1,71 @@
+What is bootstrap sand box?
+it is basically a custom UI that has been created and broken up to different sections that correspond with the course and each section just start with a bare HTML and then in each lecture will be adding the bootstarp markup together and talking about what it is? what it does.
+
+there are four different sections
+1- Utilities
+2- css sections
+3- the grid in flex box
+4- and then javascript widgets
+
+//////////////////////////////////////////////////
+
+Whta is actually the bootstrap?
+Bootstarp is an open source frontend or UI framework also sometimes called the css framework and it is created for very fast web development or UI development. and it gives us tons of tools to create websites and applications UI, here we get all type of utility classes for margin, padding, typography and so on as well as components classes like pre-made templates for things like alerts, progress bars, we also get built in javascript widgets and plugins, and easy to use and mobile first responsive grid system,
+
+the main advantage is that bootstrap is compatible with all browsers, it also promotes much faster developments, with pre-made classes and styling as well as responsive grid,
+we dont need all types of media querries we only have to use grid and we just have a responsive website,
+
+
+/////////////////////////////////////////////////
+Installation of Bootstrap,
+
+1- include the CDN
+2- Download and include the files from bootstrap.com,(this is usefull when we have no internet, but CDN is more praferable when we are working with internet)
+
+3- Package Manager- NPM/Yarn
+
+
+//////////////////////////////////////////////////////
+
+UI Utilities
+
+1- Grid System which uses flex box and is very responsive
+2- text and typography classes for things like alignment and fontsize,
+3- Positioning Classes, these classes are used to display things as blocks , inline, or inline-blocks,
+4- Spacing classes for margin and padding on top,bottom or sides,
+5- Sizing classes for widthd and heights,
+6- Alignment classes for text and others, 
+7- colors classes
+8- images classes
+9- Responsive Utilities
+10- shadow classes
+11- border classes 
+
+///////////////////////////////////////////////////////
+
+CSS components
+
+1- for clases for Form and input groups, 
+2- tables(striped or border tables)
+3- List groups(used to display ordered list, unorderd list or side menues)
+4- Cards (Using this we can display contents in very different ways like if we just want a background border with some paddings, headers and footers if we want to stick an image in there, we can do alot of different things with cards)
+5- Progress Bars ( which we can change colors, animate, or change the width and height)
+5- Alerts ( You have logged in/out, error messages etc)
+6- Nav Bar and Manues(very difficult with html,css and JS)
+7- Buttons and Buton groups
+8- Pagination
+9- Media Objects
+10- Jumbotron
+11- Badges (are going very well in list groups for displaying list of categories like number of posts in that categories )
+
+////////////////////////////////////////////////////
+
+Javascript widgets
+
+1- Carousal Slider(here we can have indicators, we can have arrows, we can set options like we want to go faster or slower, we can set it by using Jquerry)
+2- Collapsible Accordion( if we want just a basic button to make another piece of content collapse or slide down, we can do that, we also have full fledge accordianwidgets as well)
+3- Modals (Modals are basically like pop ups that can fade in nicely and we can put whatever we want in them)
+4- tooltips (when we hover over on something a nice tooltip shows up)
+5- popovers (are are very similar to tooltips)
+6- ScrollSpy (it allows us to scroll to our content and have that piece of content highlight that are in NAV Menu , we can also implement a littlebit custom jquerry for smooth scrolling)
+
