@@ -1,0 +1,29 @@
+this is section two in this section we'll learn about the first part of the sandbox here are four different areas to look at. in this section we are going to look at utility. here we'll look at basics of typography. we'll learn 
+1- what do fonts look like
+2- what do headings look like
+3- what are the other display classes we can add
+4- some of the blockquote classes
+5- how can we bold text or italicized text or 
+6- make a bigger paragraph
+
+then we'll learn about alignment (left,right,center)
+also how can we display things block,inline,inline-block
+that we'll look at floating and positioning
+also what is sticky position or fixed position
+
+
+then we'll look at colors, this includes text colors, bg-colors
+ 
+
+ and then spacing, we'll look at different margin classes, like top , right, bottom, left..
+ and then we'll look at some other padding classes
+
+
+then we'll look about sizing like if some thing can cover 25% , 50 . 75 ,100% or auto of its container etc; for width as well as for the height
+ 
+ also we'll look at border classes
+
+
+ than we'll learn about break points like media queries
+ 
+

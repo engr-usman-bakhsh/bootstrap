@@ -1,0 +1,89 @@
+///////////////////////////////////
+Button styles and flat design 
+
+
+> flat style over gradient
+> More subtle look
+> More color classes
+> .btn-outline-* class
+
+/////////////////////////////////////////
+Improved grid system and layout
+
+> Change in the underlaying architecture
+> rem and em units insted of pixels
+> New -xl tier for extra large screen (XL class for extra large font sizes)
+> Grid now uses flexBox
+
+///////////////////////////////////////////
+FlexBox
+
+
+> includes flex utilities
+> use flexBox to manage Grid, navigation components and more
+> Display Utilities can transform childern items into flex items
+> <div class="d-flex p2"> i'm a flexbox container</div>
+
+Nav bar and many other components using it and also we have some other custom classes like
+> .d-flex
+> .d-inline-flex
+> .d-sm-flex
+> .d-sm-inline-flex
+> .d-md-flex
+> .d-md-inline-flex
+> .d-lg-flex
+> .d-lg-inline-flex
+> .d-xl-flex
+> .d-xl-inline-flex
+
+
+//////////////////////////////////////////////////////////
+
+Cards
+
+> cards replace panals , wells and thumbnails
+> Uses flexbox
+> get same behaviour with modifier
+> As little markup as possible
+> .card-body instead of .well
+> image headings
+
+/////////////////////////////////////////////////////////////
+
+Changes to the NAV bar
+
+> flat design
+> Uses flexbox instead of floats
+> wrapping .navbar with .navbar-expand{-sm| -md| -lg| -xl} for responsive collapse
+> color schemes
+
+//////////////////////////////////////////////////////////
+
+Form Changes
+> Dropped the .form horizontal class
+> Forms using grids require the .row class and can use .col-form-label for labels
+> Use .form-control-lg and .form-control-sm to increase or decrease the size of an input control
+> Help text now use the .form-tetx class instead of .help-block
+
+
+////////////////////////////////////////////////////////////////
+Saas CSS Pre-Compiler
+ bootstrap 3 usees the Less CSS compiler BS4 uses the Saas Css Compiler
+
+ > Moved from Less to Saas
+ > As of V3 a Saas port was created and maintained
+ > Saas is favoured in the we development community
+ > Use of Libsaas to compile faster
+
+/////////////////////////////////////////////////////////////////
+
+Some Other Changes
+> Bigger fonts and headings
+> Dropped support for IE8+IE9
+> Reboot module
+> Inversed tables(.table-dark)
+> Glyphicons dropped (Font-awesom recomended)
+> sizinf and spacing classes
+
+
+
