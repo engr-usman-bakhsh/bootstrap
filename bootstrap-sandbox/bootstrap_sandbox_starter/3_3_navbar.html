@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <title>Bootstrap Sandbox</title>
 </head>
@@ -87,21 +86,21 @@
     <!--##################START HERE###################-->
 
     <!-- SIMPLE NAVBAR -->
-    <nav>
-        <div>
-            <a href="#">Navbar</a>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
                 </li>
-                <li>
-                    <a href="#">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
                 </li>
-                <li>
-                    <a href="#">Services</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
@@ -109,85 +108,301 @@
 
     <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
 
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navBarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navBarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- NAVBAR WITH FORM -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navBarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navBarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <input type="text" class="form-control ml-3" placeholder="Search">
+                    <input type="button" value="Search" class="btn btn-outline-success ml-3">
+                </form>
+            </div>
+        </div>
+    </nav>
 
 
     <!-- NAVBAR WITH DROPDOWN -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Link 1</a>
+                        <a href="#" class="dropdown-item">Link 2</a>
+                        <a href="#" class="dropdown-item">Link 3</a>
+                        <a href="#" class="dropdown-item">Link 4</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
     <!-- COLORS -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <br>
     <br>
 
     <!-- FIXED TOP -->
-
+    <!-- <nav class="navbar navbar-dark fixed-top bg-dark">
+        <a href="#" class="navbar-brand">Navbar fixed top</a>
+    </nav> -->
 
     <!-- FIXED BOTTOM -->
+    <nav class="navbar navbar-dark fixed-bottom bg-success">
+        <a href="#" class="navbar-brand">Navbar fixed Bottom</a>
+    </nav>
 
 
-    <!-- FIXED TOP -->
-
+    <!-- sticky top  -->
+    <nav class="navbar navbar-dark sticky-top bg-dark">
+        <a href="#" class="navbar-brand">Navbar Sticky top</a>
+    </nav>
 
     <br>
     <br>
 
     <div class="container">
 
-        <!-- NAVS -->
-        <ul>
-            <li>
-                <a href="#">Link 1</a>
+        <!-- NAVS // to set them horizontally-->
+        <ul class="nav nav-pills mb-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
             </li>
-            <li>
-                <a href="#">Link 2</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
             </li>
-            <li>
-                <a href="#">Link 3</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
             </li>
-            <li>
-                <a href="#">Link 4</a>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 4</a>
             </li>
         </ul>
 
 
-        <!-- HORIZONTAL ALIGN -->
-
+        <!-- HORIZONTAL ALIGN // center align-->
+        <ul class="nav nav-pills justify-content-center mb-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <!-- RIGHT ALIGN -->
-
+        <ul class="nav nav-pills justify-content-end mb-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
         <!-- VERTICAL -->
-
+        <ul class="nav nav-pills flex-column mb-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
-        <!-- FILL & JUSTIFY -->
-
+        <!-- FILL & JUSTIFY // it just span every thing horizontally-->
+        <ul class="nav nav-pills nav-fill mb-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
         <!-- WITH DROPDOWNS -->
-
+        <ul class="nav nav-pills justify-content-center mb-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Link 1</a>
+                    <a href="#" class="dropdown-item">Link 2</a>
+                    <a href="#" class="dropdown-item">Link 3</a>
+                    <a href="#" class="dropdown-item">Link 4</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 4</a>
+            </li>
+        </ul>
 
 
     </div>
     <!-- ./container -->
     <div style="margin-top:500px;"></div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 
 </html>
